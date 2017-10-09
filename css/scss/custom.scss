@@ -1,0 +1,44 @@
+$beige: rgb(204,182,124);
+$blue: rgb(83,144,209);
+$dark-blue: rgb(28,63,102);
+$white: white;
+$light-beige: rgb(225,219,195);
+$light-blue: rgb(198,212,239);
+$dark-beige: rgb(212, 192,142);
+
+.logo-img{
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+    width:100%;
+}
+
+.course_desc p{
+    font-size: 12pt;
+}
+.carousel-item > div {
+  float: left;
+}
+.carousel-by-item [class*="cloneditem-"] {
+  display: none;
+}
+.course_img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, $light-blue 1%, transparent 70%), url(/img/pic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+    background-color: $light-blue;
+}
+
+.fix-collapse>.col{
+  padding: 0!important;
+}
